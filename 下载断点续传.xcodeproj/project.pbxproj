@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4CF7B422060A23600DA2D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B412060A23600DA2D66 /* AppDelegate.m */; };
+		A4CF7B452060A23600DA2D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B442060A23600DA2D66 /* ViewController.m */; };
+		A4CF7B482060A23600DA2D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CF7B462060A23600DA2D66 /* Main.storyboard */; };
+		A4CF7B4A2060A23600DA2D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CF7B492060A23600DA2D66 /* Assets.xcassets */; };
+		A4CF7B4D2060A23600DA2D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CF7B4B2060A23600DA2D66 /* LaunchScreen.storyboard */; };
+		A4CF7B502060A23600DA2D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B4F2060A23600DA2D66 /* main.m */; };
+		A4CF7B5A2060A23600DA2D66 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B592060A23600DA2D66 /* ______Tests.m */; };
+		A4CF7B652060A23600DA2D66 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B642060A23600DA2D66 /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4CF7B562060A23600DA2D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CF7B352060A23500DA2D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF7B3C2060A23600DA2D66;
+			remoteInfo = "下载断点续传";
+		};
+		A4CF7B612060A23600DA2D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CF7B352060A23500DA2D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF7B3C2060A23600DA2D66;
+			remoteInfo = "下载断点续传";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4CF7B3D2060A23600DA2D66 /* 下载断点续传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下载断点续传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CF7B402060A23600DA2D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4CF7B412060A23600DA2D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4CF7B432060A23600DA2D66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4CF7B442060A23600DA2D66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4CF7B472060A23600DA2D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4CF7B492060A23600DA2D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4CF7B4C2060A23600DA2D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4CF7B4E2060A23600DA2D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CF7B4F2060A23600DA2D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4CF7B552060A23600DA2D66 /* 下载断点续传Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下载断点续传Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CF7B592060A23600DA2D66 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		A4CF7B5B2060A23600DA2D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CF7B602060A23600DA2D66 /* 下载断点续传UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下载断点续传UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CF7B642060A23600DA2D66 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		A4CF7B662060A23600DA2D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4CF7B3A2060A23600DA2D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CF7B522060A23600DA2D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CF7B5D2060A23600DA2D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4CF7B342060A23500DA2D66 = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B3F2060A23600DA2D66 /* 下载断点续传 */,
+				A4CF7B582060A23600DA2D66 /* 下载断点续传Tests */,
+				A4CF7B632060A23600DA2D66 /* 下载断点续传UITests */,
+				A4CF7B3E2060A23600DA2D66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4CF7B3E2060A23600DA2D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B3D2060A23600DA2D66 /* 下载断点续传.app */,
+				A4CF7B552060A23600DA2D66 /* 下载断点续传Tests.xctest */,
+				A4CF7B602060A23600DA2D66 /* 下载断点续传UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4CF7B3F2060A23600DA2D66 /* 下载断点续传 */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B402060A23600DA2D66 /* AppDelegate.h */,
+				A4CF7B412060A23600DA2D66 /* AppDelegate.m */,
+				A4CF7B432060A23600DA2D66 /* ViewController.h */,
+				A4CF7B442060A23600DA2D66 /* ViewController.m */,
+				A4CF7B462060A23600DA2D66 /* Main.storyboard */,
+				A4CF7B492060A23600DA2D66 /* Assets.xcassets */,
+				A4CF7B4B2060A23600DA2D66 /* LaunchScreen.storyboard */,
+				A4CF7B4E2060A23600DA2D66 /* Info.plist */,
+				A4CF7B4F2060A23600DA2D66 /* main.m */,
+			);
+			path = "下载断点续传";
+			sourceTree = "<group>";
+		};
+		A4CF7B582060A23600DA2D66 /* 下载断点续传Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B592060A23600DA2D66 /* ______Tests.m */,
+				A4CF7B5B2060A23600DA2D66 /* Info.plist */,
+			);
+			path = "下载断点续传Tests";
+			sourceTree = "<group>";
+		};
+		A4CF7B632060A23600DA2D66 /* 下载断点续传UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B642060A23600DA2D66 /* ______UITests.m */,
+				A4CF7B662060A23600DA2D66 /* Info.plist */,
+			);
+			path = "下载断点续传UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4CF7B3C2060A23600DA2D66 /* 下载断点续传 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CF7B692060A23600DA2D66 /* Build configuration list for PBXNativeTarget "下载断点续传" */;
+			buildPhases = (
+				A4CF7B392060A23600DA2D66 /* Sources */,
+				A4CF7B3A2060A23600DA2D66 /* Frameworks */,
+				A4CF7B3B2060A23600DA2D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "下载断点续传";
+			productName = "下载断点续传";
+			productReference = A4CF7B3D2060A23600DA2D66 /* 下载断点续传.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4CF7B542060A23600DA2D66 /* 下载断点续传Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CF7B6C2060A23600DA2D66 /* Build configuration list for PBXNativeTarget "下载断点续传Tests" */;
+			buildPhases = (
+				A4CF7B512060A23600DA2D66 /* Sources */,
+				A4CF7B522060A23600DA2D66 /* Frameworks */,
+				A4CF7B532060A23600DA2D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CF7B572060A23600DA2D66 /* PBXTargetDependency */,
+			);
+			name = "下载断点续传Tests";
+			productName = "下载断点续传Tests";
+			productReference = A4CF7B552060A23600DA2D66 /* 下载断点续传Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4CF7B5F2060A23600DA2D66 /* 下载断点续传UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CF7B6F2060A23600DA2D66 /* Build configuration list for PBXNativeTarget "下载断点续传UITests" */;
+			buildPhases = (
+				A4CF7B5C2060A23600DA2D66 /* Sources */,
+				A4CF7B5D2060A23600DA2D66 /* Frameworks */,
+				A4CF7B5E2060A23600DA2D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CF7B622060A23600DA2D66 /* PBXTargetDependency */,
+			);
+			name = "下载断点续传UITests";
+			productName = "下载断点续传UITests";
+			productReference = A4CF7B602060A23600DA2D66 /* 下载断点续传UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4CF7B352060A23500DA2D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = caoji;
+				TargetAttributes = {
+					A4CF7B3C2060A23600DA2D66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A4CF7B542060A23600DA2D66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4CF7B3C2060A23600DA2D66;
+					};
+					A4CF7B5F2060A23600DA2D66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4CF7B3C2060A23600DA2D66;
+					};
+				};
+			};
+			buildConfigurationList = A4CF7B382060A23500DA2D66 /* Build configuration list for PBXProject "下载断点续传" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4CF7B342060A23500DA2D66;
+			productRefGroup = A4CF7B3E2060A23600DA2D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CF7B3C2060A23600DA2D66 /* 下载断点续传 */,
+				A4CF7B542060A23600DA2D66 /* 下载断点续传Tests */,
+				A4CF7B5F2060A23600DA2D66 /* 下载断点续传UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4CF7B3B2060A23600DA2D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CF7B4D2060A23600DA2D66 /* LaunchScreen.storyboard in Resources */,
+				A4CF7B4A2060A23600DA2D66 /* Assets.xcassets in Resources */,
+				A4CF7B482060A23600DA2D66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CF7B532060A23600DA2D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CF7B5E2060A23600DA2D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4CF7B392060A23600DA2D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CF7B452060A23600DA2D66 /* ViewController.m in Sources */,
+				A4CF7B502060A23600DA2D66 /* main.m in Sources */,
+				A4CF7B422060A23600DA2D66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CF7B512060A23600DA2D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CF7B5A2060A23600DA2D66 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CF7B5C2060A23600DA2D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CF7B652060A23600DA2D66 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4CF7B572060A23600DA2D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CF7B3C2060A23600DA2D66 /* 下载断点续传 */;
+			targetProxy = A4CF7B562060A23600DA2D66 /* PBXContainerItemProxy */;
+		};
+		A4CF7B622060A23600DA2D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CF7B3C2060A23600DA2D66 /* 下载断点续传 */;
+			targetProxy = A4CF7B612060A23600DA2D66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4CF7B462060A23600DA2D66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CF7B472060A23600DA2D66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4CF7B4B2060A23600DA2D66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CF7B4C2060A23600DA2D66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4CF7B672060A23600DA2D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4CF7B682060A23600DA2D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4CF7B6A2060A23600DA2D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "下载断点续传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4CF7B6B2060A23600DA2D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "下载断点续传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4CF7B6D2060A23600DA2D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "下载断点续传Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/下载断点续传.app/下载断点续传";
+			};
+			name = Debug;
+		};
+		A4CF7B6E2060A23600DA2D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "下载断点续传Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/下载断点续传.app/下载断点续传";
+			};
+			name = Release;
+		};
+		A4CF7B702060A23600DA2D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "下载断点续传UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "下载断点续传";
+			};
+			name = Debug;
+		};
+		A4CF7B712060A23600DA2D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "下载断点续传UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "下载断点续传";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4CF7B382060A23500DA2D66 /* Build configuration list for PBXProject "下载断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CF7B672060A23600DA2D66 /* Debug */,
+				A4CF7B682060A23600DA2D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CF7B692060A23600DA2D66 /* Build configuration list for PBXNativeTarget "下载断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CF7B6A2060A23600DA2D66 /* Debug */,
+				A4CF7B6B2060A23600DA2D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CF7B6C2060A23600DA2D66 /* Build configuration list for PBXNativeTarget "下载断点续传Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CF7B6D2060A23600DA2D66 /* Debug */,
+				A4CF7B6E2060A23600DA2D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CF7B6F2060A23600DA2D66 /* Build configuration list for PBXNativeTarget "下载断点续传UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CF7B702060A23600DA2D66 /* Debug */,
+				A4CF7B712060A23600DA2D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4CF7B352060A23500DA2D66 /* Project object */;
+}
