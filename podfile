@@ -1,0 +1,4 @@
+platform:ios,'8.0'
+target "下载断点续传" do
+pod "Masonry"
+end

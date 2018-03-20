@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A4CF7B422060A23600DA2D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B412060A23600DA2D66 /* AppDelegate.m */; };
-		A4CF7B452060A23600DA2D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B442060A23600DA2D66 /* ViewController.m */; };
-		A4CF7B482060A23600DA2D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CF7B462060A23600DA2D66 /* Main.storyboard */; };
 		A4CF7B4A2060A23600DA2D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CF7B492060A23600DA2D66 /* Assets.xcassets */; };
-		A4CF7B4D2060A23600DA2D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CF7B4B2060A23600DA2D66 /* LaunchScreen.storyboard */; };
 		A4CF7B502060A23600DA2D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B4F2060A23600DA2D66 /* main.m */; };
 		A4CF7B5A2060A23600DA2D66 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B592060A23600DA2D66 /* ______Tests.m */; };
 		A4CF7B652060A23600DA2D66 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B642060A23600DA2D66 /* ______UITests.m */; };
+		A4CF7B792060A25E00DA2D66 /* MCDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B742060A25E00DA2D66 /* MCDownloader.m */; };
+		A4CF7B7A2060A25E00DA2D66 /* MCDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B762060A25E00DA2D66 /* MCDownloadOperation.m */; };
+		A4CF7B7B2060A25E00DA2D66 /* MCDownloadReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B782060A25E00DA2D66 /* MCDownloadReceipt.m */; };
+		A4CF7B822060A46D00DA2D66 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B812060A46D00DA2D66 /* MainViewController.m */; };
+		A4CF7B852060A48F00DA2D66 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B842060A48F00DA2D66 /* MainModel.m */; };
+		A4CF7B882060A4E400DA2D66 /* MainVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B872060A4E400DA2D66 /* MainVIew.m */; };
+		A4CF7B8B2060A6C600DA2D66 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B8A2060A6C600DA2D66 /* MainTableViewCell.m */; };
+		A4CF7B8E2060A79800DA2D66 /* QKYDelayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B8D2060A79800DA2D66 /* QKYDelayButton.m */; };
+		A4CF7B912060A98800DA2D66 /* MainTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF7B902060A98800DA2D66 /* MainTableModel.m */; };
+		C643558B0A69F891B4FAE4E2 /* libPods-下载断点续传.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3EB93ECBFEC09E99283DA7 /* libPods-下载断点续传.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +42,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28C6E198920371607822F9DE /* Pods-下载断点续传.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-下载断点续传.release.xcconfig"; path = "Pods/Target Support Files/Pods-下载断点续传/Pods-下载断点续传.release.xcconfig"; sourceTree = "<group>"; };
+		6A3EB93ECBFEC09E99283DA7 /* libPods-下载断点续传.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-下载断点续传.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9898CD51123477245B57508D /* Pods-下载断点续传.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-下载断点续传.debug.xcconfig"; path = "Pods/Target Support Files/Pods-下载断点续传/Pods-下载断点续传.debug.xcconfig"; sourceTree = "<group>"; };
 		A4CF7B3D2060A23600DA2D66 /* 下载断点续传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下载断点续传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CF7B402060A23600DA2D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4CF7B412060A23600DA2D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4CF7B432060A23600DA2D66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4CF7B442060A23600DA2D66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A4CF7B472060A23600DA2D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4CF7B492060A23600DA2D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4CF7B4C2060A23600DA2D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4CF7B4E2060A23600DA2D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4CF7B4F2060A23600DA2D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4CF7B552060A23600DA2D66 /* 下载断点续传Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下载断点续传Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4CF7B592060A23600DA2D66 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		A4CF7B592060A23600DA2D66 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______Tests.m; sourceTree = "<group>"; };
 		A4CF7B5B2060A23600DA2D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4CF7B602060A23600DA2D66 /* 下载断点续传UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下载断点续传UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4CF7B642060A23600DA2D66 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		A4CF7B642060A23600DA2D66 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______UITests.m; sourceTree = "<group>"; };
 		A4CF7B662060A23600DA2D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CF7B732060A25E00DA2D66 /* MCDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloader.h; sourceTree = "<group>"; };
+		A4CF7B742060A25E00DA2D66 /* MCDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDownloader.m; sourceTree = "<group>"; };
+		A4CF7B752060A25E00DA2D66 /* MCDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloadOperation.h; sourceTree = "<group>"; };
+		A4CF7B762060A25E00DA2D66 /* MCDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDownloadOperation.m; sourceTree = "<group>"; };
+		A4CF7B772060A25E00DA2D66 /* MCDownloadReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloadReceipt.h; sourceTree = "<group>"; };
+		A4CF7B782060A25E00DA2D66 /* MCDownloadReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDownloadReceipt.m; sourceTree = "<group>"; };
+		A4CF7B802060A46D00DA2D66 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A4CF7B812060A46D00DA2D66 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A4CF7B832060A48F00DA2D66 /* MainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		A4CF7B842060A48F00DA2D66 /* MainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		A4CF7B862060A4E400DA2D66 /* MainVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVIew.h; sourceTree = "<group>"; };
+		A4CF7B872060A4E400DA2D66 /* MainVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVIew.m; sourceTree = "<group>"; };
+		A4CF7B892060A6C600DA2D66 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		A4CF7B8A2060A6C600DA2D66 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		A4CF7B8C2060A79800DA2D66 /* QKYDelayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKYDelayButton.h; sourceTree = "<group>"; };
+		A4CF7B8D2060A79800DA2D66 /* QKYDelayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKYDelayButton.m; sourceTree = "<group>"; };
+		A4CF7B8F2060A98800DA2D66 /* MainTableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableModel.h; sourceTree = "<group>"; };
+		A4CF7B902060A98800DA2D66 /* MainTableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C643558B0A69F891B4FAE4E2 /* libPods-下载断点续传.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		700FE5879D70D295989DFF13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9898CD51123477245B57508D /* Pods-下载断点续传.debug.xcconfig */,
+				28C6E198920371607822F9DE /* Pods-下载断点续传.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A4CF7B342060A23500DA2D66 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				A4CF7B582060A23600DA2D66 /* 下载断点续传Tests */,
 				A4CF7B632060A23600DA2D66 /* 下载断点续传UITests */,
 				A4CF7B3E2060A23600DA2D66 /* Products */,
+				700FE5879D70D295989DFF13 /* Pods */,
+				C67C265D8AC54F3575345BBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +137,11 @@
 		A4CF7B3F2060A23600DA2D66 /* 下载断点续传 */ = {
 			isa = PBXGroup;
 			children = (
+				A4CF7B722060A25E00DA2D66 /* Source */,
 				A4CF7B402060A23600DA2D66 /* AppDelegate.h */,
 				A4CF7B412060A23600DA2D66 /* AppDelegate.m */,
-				A4CF7B432060A23600DA2D66 /* ViewController.h */,
-				A4CF7B442060A23600DA2D66 /* ViewController.m */,
-				A4CF7B462060A23600DA2D66 /* Main.storyboard */,
+				A4CF7B7C2060A44B00DA2D66 /* MainViewController */,
 				A4CF7B492060A23600DA2D66 /* Assets.xcassets */,
-				A4CF7B4B2060A23600DA2D66 /* LaunchScreen.storyboard */,
 				A4CF7B4E2060A23600DA2D66 /* Info.plist */,
 				A4CF7B4F2060A23600DA2D66 /* main.m */,
 			);
@@ -132,6 +166,70 @@
 			path = "下载断点续传UITests";
 			sourceTree = "<group>";
 		};
+		A4CF7B722060A25E00DA2D66 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B732060A25E00DA2D66 /* MCDownloader.h */,
+				A4CF7B742060A25E00DA2D66 /* MCDownloader.m */,
+				A4CF7B752060A25E00DA2D66 /* MCDownloadOperation.h */,
+				A4CF7B762060A25E00DA2D66 /* MCDownloadOperation.m */,
+				A4CF7B772060A25E00DA2D66 /* MCDownloadReceipt.h */,
+				A4CF7B782060A25E00DA2D66 /* MCDownloadReceipt.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A4CF7B7C2060A44B00DA2D66 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B7D2060A44B00DA2D66 /* C */,
+				A4CF7B7E2060A44B00DA2D66 /* M */,
+				A4CF7B7F2060A44B00DA2D66 /* V */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		A4CF7B7D2060A44B00DA2D66 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B802060A46D00DA2D66 /* MainViewController.h */,
+				A4CF7B812060A46D00DA2D66 /* MainViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A4CF7B7E2060A44B00DA2D66 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B832060A48F00DA2D66 /* MainModel.h */,
+				A4CF7B842060A48F00DA2D66 /* MainModel.m */,
+				A4CF7B8F2060A98800DA2D66 /* MainTableModel.h */,
+				A4CF7B902060A98800DA2D66 /* MainTableModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A4CF7B7F2060A44B00DA2D66 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				A4CF7B862060A4E400DA2D66 /* MainVIew.h */,
+				A4CF7B872060A4E400DA2D66 /* MainVIew.m */,
+				A4CF7B892060A6C600DA2D66 /* MainTableViewCell.h */,
+				A4CF7B8A2060A6C600DA2D66 /* MainTableViewCell.m */,
+				A4CF7B8C2060A79800DA2D66 /* QKYDelayButton.h */,
+				A4CF7B8D2060A79800DA2D66 /* QKYDelayButton.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		C67C265D8AC54F3575345BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A3EB93ECBFEC09E99283DA7 /* libPods-下载断点续传.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4CF7B692060A23600DA2D66 /* Build configuration list for PBXNativeTarget "下载断点续传" */;
 			buildPhases = (
+				3A880D9B7354716A170B0F6F /* [CP] Check Pods Manifest.lock */,
 				A4CF7B392060A23600DA2D66 /* Sources */,
 				A4CF7B3A2060A23600DA2D66 /* Frameworks */,
 				A4CF7B3B2060A23600DA2D66 /* Resources */,
+				F234ABC7B054CDE64F32AAE0 /* [CP] Embed Pods Frameworks */,
+				421D415E9AD75766804E4740 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CF7B4D2060A23600DA2D66 /* LaunchScreen.storyboard in Resources */,
 				A4CF7B4A2060A23600DA2D66 /* Assets.xcassets in Resources */,
-				A4CF7B482060A23600DA2D66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +359,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A880D9B7354716A170B0F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		421D415E9AD75766804E4740 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-下载断点续传/Pods-下载断点续传-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F234ABC7B054CDE64F32AAE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-下载断点续传/Pods-下载断点续传-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4CF7B392060A23600DA2D66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CF7B452060A23600DA2D66 /* ViewController.m in Sources */,
+				A4CF7B792060A25E00DA2D66 /* MCDownloader.m in Sources */,
+				A4CF7B822060A46D00DA2D66 /* MainViewController.m in Sources */,
+				A4CF7B7A2060A25E00DA2D66 /* MCDownloadOperation.m in Sources */,
+				A4CF7B912060A98800DA2D66 /* MainTableModel.m in Sources */,
+				A4CF7B8B2060A6C600DA2D66 /* MainTableViewCell.m in Sources */,
 				A4CF7B502060A23600DA2D66 /* main.m in Sources */,
+				A4CF7B8E2060A79800DA2D66 /* QKYDelayButton.m in Sources */,
+				A4CF7B7B2060A25E00DA2D66 /* MCDownloadReceipt.m in Sources */,
+				A4CF7B882060A4E400DA2D66 /* MainVIew.m in Sources */,
 				A4CF7B422060A23600DA2D66 /* AppDelegate.m in Sources */,
+				A4CF7B852060A48F00DA2D66 /* MainModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +456,6 @@
 			targetProxy = A4CF7B612060A23600DA2D66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A4CF7B462060A23600DA2D66 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4CF7B472060A23600DA2D66 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4CF7B4B2060A23600DA2D66 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4CF7B4C2060A23600DA2D66 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4CF7B672060A23600DA2D66 /* Debug */ = {
@@ -428,9 +564,11 @@
 		};
 		A4CF7B6A2060A23600DA2D66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9898CD51123477245B57508D /* Pods-下载断点续传.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "下载断点续传/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------";
@@ -441,9 +579,11 @@
 		};
 		A4CF7B6B2060A23600DA2D66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C6E198920371607822F9DE /* Pods-下载断点续传.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "下载断点续传/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caoji.------";
